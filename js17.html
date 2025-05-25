@@ -44,6 +44,11 @@
       ctx.fillStyle = 'deepskyblue';
       ctx.fill();
 
+      // Обводка (рамка) тёмно-синего цвета
+      ctx.strokeStyle = 'darkblue';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
       i++;
       if (i < 1000) {
         requestAnimationFrame(draw);
